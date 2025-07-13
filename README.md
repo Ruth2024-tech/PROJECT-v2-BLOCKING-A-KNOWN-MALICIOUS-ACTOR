@@ -1,3 +1,3 @@
-# PROJECT-v2-BLOCKING-A-KNOWN-MALICIOUS-ACTOR
+# Project-v2-Blocking-a-Known-Malicious-Actor
 This project enhances security monitoring using Wazuh’s command monitoring and active response to detect and block a known malicious actor in real time. It secures Ubuntu endpoints in the 10ALYTICS-DC environment through automated detection, analysis, and mitigation, preventing compromise and access escalation.
 Following the detection of unauthorized access in the earlier phase, the project advanced to blocking known malicious actors using Wazuh’s IP reputation management. Simulated attacks from Kali Linux targeting an Apache web server on Ubuntu were identified and mitigated by blacklisting the attacker’s IP. Wazuh’s active response automatically blocked connections from the flagged IP for 60 seconds, preventing further intrusion. This integration of threat intelligence with automated firewall rules effectively reduced risks from malicious IP activity.
